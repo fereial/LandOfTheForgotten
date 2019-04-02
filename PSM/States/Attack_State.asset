@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e102515d3441fe349bd3a63ed3f8336f, type: 3}
+  m_Name: Attack_State
+  m_EditorClassIdentifier: 
+  _EnterActions: []
+  _UpdateActions:
+  - {fileID: 11400000, guid: e3655d6cfc5cb714b94e24600912581c, type: 2}
+  - {fileID: 11400000, guid: ac4616ebc4814c44282e081c4d1e55c8, type: 2}
+  _ExitActions:
+  - {fileID: 11400000, guid: 9ff3f04c118d8454bb370c6b3db1b7ca, type: 2}
+  _Transitions:
+  - _decisions:
+    - {fileID: 11400000, guid: 6520785c9b693d44a84164f8dc7e35d1, type: 2}
+    _StateToTransitionIfTrue: {fileID: 11400000}
+  - _decisions:
+    - {fileID: 11400000, guid: 8beddb1cb7f689446b5835a9c39ab786, type: 2}
+    _StateToTransitionIfTrue: {fileID: 11400000, guid: 14301c79c71cd5246a0e54cd59af4a82,
+      type: 2}
+  - _decisions:
+    - {fileID: 11400000, guid: c713a5db003fa5f4cb39777bc3095649, type: 2}
+    _StateToTransitionIfTrue: {fileID: 11400000, guid: 2d11149a4e073554ab34dbd94f64aa6c,
+      type: 2}
